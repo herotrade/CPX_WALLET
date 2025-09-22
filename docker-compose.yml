@@ -15,3 +15,8 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    networks:
+      - data_network
+networks:
+data_network:
+  external: true
