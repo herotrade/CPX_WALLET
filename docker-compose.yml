@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   cpx-wallet-api:
+    container_name: cpx_wallet_api
     build: .
     ports:
       - "9505:9505"
