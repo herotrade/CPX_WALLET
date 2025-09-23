@@ -18,5 +18,5 @@ services:
     networks:
       - data_network
 networks:
-data_network:
-  external: true
+  data_network:
+    external: true
